@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "clockonomy",
+	"version": "${version}",
+	"name": "Clockonomy",
+	"description": "Time is money. Literally. Survive as long as you can.",
+	"authors": [
+		"Brightglow"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/clockonomy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.brightglow.Clockonomy"
+		],
+		"fabric-datagen": [
+			"xyz.brightglow.ClockonomyDataGenerator"
+		],
+		"client": [
+			"xyz.brightglow.ClockonomyClient"
+		]
+	},
+	"mixins": [
+		"clockonomy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
