@@ -1,3 +1,7 @@
 {
-  "item.clockonomy.tick_supply": "Tick Supply"
+  "item.clockonomy.tick_supply": "Tick Supply",
+
+  "block.clockonomy.time_stone": "Time Stone",
+
+  "itemgroup.clockonomy.clockonomy_items": "Clockonomy Items"
 }

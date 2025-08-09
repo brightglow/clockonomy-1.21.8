@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "clockonomy:block/time_stone"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "clockonomy:block/time_stone"
+  }
+}
