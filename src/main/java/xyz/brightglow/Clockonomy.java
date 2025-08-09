@@ -19,6 +19,6 @@ public class Clockonomy implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		LOGGER.info("All loaded, times a-ticking!");
+		LOGGER.info("All classes loaded, times a-ticking!");
 	}
 }
